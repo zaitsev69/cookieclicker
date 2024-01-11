@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICKER</title>
+    <link rel="stylesheet" href="clicker.css">
+
+
+</head>
+
+<body>
+
+    <audio preload="auto" id="coup">
+        <source src="coup.wav" type="audio/wav">
+      </audio>
+
+      <audio preload="auto" id="mort">
+        <source src="mort.mp3" type="audio/mp3">
+      </audio>
+
+
+    <script src="E:\Cours Digital\Dev front\clicker"></script>
+    <div id="titre">CLICKER BLOOOOD</div>
+
+    <div id="base">
+        <progress id="health" value="400" max="400"></progress>
+
+        <button id="incrementButton"><img draggable="false" id="monstre"
+                src="E:\Cours Digital\Dev front\clicker\Monstre.png"></button>
+    </div>
+    <div id="stats">
+        <div class="or">Pièce d'or :</div>
+        <div id="counter">0</div>
+        <div class="dpc">Dégats par coup :</div>
+        <div id="dpcCounter">10</div>
+    
+    </div>
+    <div class="Items">
+        <div>Dague
+            <div class="container img">
+                <img draggable="false" src="E:\Cours Digital\Dev front\clicker\dague.png">
+                <div>Dégâts par coup : +10</div>
+                <button id="boutonitem1">Acheter (30 PO)</button>
+            </div>
+        </div>
+        <div>Katana
+            <div class="container img">
+                <img draggable="false" src="E:\Cours Digital\Dev front\clicker\katana.png">
+                <div>Dégâts par coup : +20</div>
+                <button id="boutonitem2">Acheter (150 PO)</button>
+            </div>
+        </div>
+        <div>Marteau
+            <div class="container img">
+                <img draggable="false" src="E:\Cours Digital\Dev front\clicker\marteau.png">
+                <div>Dégâts par coup : +30</div>
+                <button id="boutonitem3">Acheter (300 PO)</button>
+            </div>
+        </div>
+        <div>Epée
+            <div class="container img">
+                <img draggable="false" src="E:\Cours Digital\Dev front\clicker\epee.png">
+                <div>Dégâts par coup : +50</div>
+                <button id="boutonitem4">Acheter (1000 PO)</button>
+            </div>
+        </div>
+    </div>
+    <script src="clicker.js"></script>
+
+
+</body>
+
+</html>
