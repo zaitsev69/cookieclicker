@@ -1,0 +1,192 @@
+
+
+
+body {
+    font-family: monospace;
+    font-size: x-large;
+    color: white;
+    gap: 100px;
+
+    background-image:url(fond.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    cursor: url("https://dofus2.org/images/items/epee-du-granduk.png"), crosshair;
+    user-select: none;
+    overflow:visible;
+    display: flex;
+    flex-direction: row;
+    
+}
+.noselect {
+  user-select: none;
+}
+
+* {
+  cursor: url("https://dofus2.org/images/items/epee-du-granduk.png"), crosshair;
+  
+}
+
+
+#monstre {
+  width: 400px;
+  height: 357px;
+  filter: grayscale(0%) hue-rotate(0deg);
+
+}
+
+.container img {
+  max-width: 200px;
+  max-height: 200px;
+
+}
+#incrementButton {
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    padding: 0;
+    
+  }
+
+
+
+progress {
+  width: 400px;
+
+}
+
+#boutonitem1 {
+
+  outline: none;
+  border: none;
+  background-color: #dcb26b;
+  padding: 0.3em 1.2em;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: #ffffff;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 4px #c19245 inset;
+}
+
+#boutonitem2 {
+
+  outline: none;
+  border: none;
+  background-color: #dcb26b;
+  padding: 0.3em 1.2em;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: #ffffff;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 4px #c19245 inset;
+}
+
+#boutonitem3 {
+
+  outline: none;
+  border: none;
+  background-color: #dcb26b;
+  padding: 0.3em 1.2em;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: #ffffff;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 4px #c19245 inset;
+}
+
+#boutonitem4 {
+
+  outline: none;
+  border: none;
+  background-color: #dcb26b;
+  padding: 0.3em 1.2em;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: #ffffff;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 4px #c19245 inset;
+}
+
+#boutonitem1:hover {
+  background-image: linear-gradient(
+    55deg,
+    transparent 10%,
+    #86714e 10% 20%,
+    transparent 20% 30%,
+    #86714e 30% 40%,
+    transparent 40% 50%,
+    #86714e 50% 60%,
+    transparent 60% 70%,
+    #86714e 70% 80%,
+    transparent 80% 90%,
+    #86714e 90% 100%
+  );
+  animation: background 3s linear infinite;
+}
+
+#boutonitem2:hover {
+  background-image: linear-gradient(
+    55deg,
+    transparent 10%,
+    #86714e 10% 20%,
+    transparent 20% 30%,
+    #86714e 30% 40%,
+    transparent 40% 50%,
+    #86714e 50% 60%,
+    transparent 60% 70%,
+    #86714e 70% 80%,
+    transparent 80% 90%,
+    #86714e 90% 100%
+  );
+  animation: background 3s linear infinite;
+}
+
+#boutonitem3:hover {
+  background-image: linear-gradient(
+    55deg,
+    transparent 10%,
+    #86714e 10% 20%,
+    transparent 20% 30%,
+    #86714e 30% 40%,
+    transparent 40% 50%,
+    #86714e 50% 60%,
+    transparent 60% 70%,
+    #86714e 70% 80%,
+    transparent 80% 90%,
+    #86714e 90% 100%
+  );
+  animation: background 3s linear infinite;
+}
+
+#boutonitem4:hover {
+  background-image: linear-gradient(
+    55deg,
+    transparent 10%,
+    #86714e 10% 20%,
+    transparent 20% 30%,
+    #86714e 30% 40%,
+    transparent 40% 50%,
+    #86714e 50% 60%,
+    transparent 60% 70%,
+    #86714e 70% 80%,
+    transparent 80% 90%,
+    #86714e 90% 100%
+  );
+  animation: background 3s linear infinite;
+}
+
+#base {
+  display: flex;
+
+}
+
+#stats {
+  background-color:#c19245;
+  height:fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
